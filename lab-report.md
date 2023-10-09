@@ -18,6 +18,8 @@ Output: No output (successful command)
 
 Explanation: Here, we specify a directory path as an argument, and the cd command takes us to that directory, as long as it exists. No output indicates success.
 
+![Image](cd argument.png)
+
 Example 3: Using cd with a File Path
 Command: cd /path/to/file.txt
 Working Directory: Your current directory
