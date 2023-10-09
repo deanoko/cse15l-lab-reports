@@ -9,7 +9,7 @@ Output: No output (successful command)
 
 Explanation: When you use cd with no arguments, it takes you to your home directory. This is why you see no output, indicating success.
 
-![Image](cs with no argument.png)
+![Image](cd.png)
 
 Example 2: Using cd with a Directory Path
 Command: cd /path/to/directory
