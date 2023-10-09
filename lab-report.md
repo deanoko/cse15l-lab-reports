@@ -33,12 +33,16 @@ Command: ls
 Working Directory: Your current directory
 Output: List of files and subdirectories in the current directory
 
+![Image](ls.png)
+
 Explanation: ls with no arguments lists the contents of your current directory. It helps you view what's inside your working directory.
 
 Example 2: Using ls with a Directory Path
 Command: ls /path/to/directory
 Working Directory: Your current directory
 Output: List of files and subdirectories in the specified directory
+
+![Image](lsargu.png)
 
 Explanation: When you provide a directory path as an argument to ls, it lists the contents of that directory, regardless of your current working directory.
 
@@ -47,6 +51,7 @@ Command: ls /path/to/file.txt
 Working Directory: Your current directory
 Output: Error: Not a directory
 
+![Image](lsfile.png)
 Explanation: ls expects a directory path as an argument, so providing a file path results in an error.
 
 ## Command 3: cat (Concatenate)
