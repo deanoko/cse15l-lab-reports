@@ -60,18 +60,24 @@ Command: cat
 Working Directory: Your current directory
 Output: Outputs the content of the file if you provide input via the terminal, otherwise it waits for input.
 
+![Image](cat.png)
+
 Explanation: cat without arguments waits for input from the user. It is used for viewing and concatenating file content.
 
-Example 2: Using cat with a File Path
-Command: cat /path/to/file.txt
-Working Directory: Your current directory
-Output: Displays the content of the specified file
-
-Explanation: When you provide a file path as an argument, cat displays the content of that file. It's a useful command for reading the contents of files.
-
-Example 3: Using cat with a Directory Path
+Example 2: Using cat with a Directory Path
 Command: cat /path/to/directory
 Working Directory: Your current directory
 Output: Error: Is a directory
 
+![Image](catfile.png)
+
 Explanation: cat expects a file path as an argument. Providing a directory path results in an error because you cannot concatenate the content of a directory.
+
+Example 3: Using cat with a File Path
+Command: cat /path/to/file.txt
+Working Directory: Your current directory
+Output: Displays the content of the specified file
+
+![Image](catargu.png)
+
+Explanation: When you provide a file path as an argument, cat displays the content of that file. It's a useful command for reading the contents of files.
