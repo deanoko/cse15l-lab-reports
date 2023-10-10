@@ -69,7 +69,7 @@ Command: cat /path/to/directory
 Working Directory: Your current directory
 Output: Error: Is a directory
 
-![Image](catfile.png)
+![Image](catargu.png)
 
 Explanation: cat expects a file path as an argument. Providing a directory path results in an error because you cannot concatenate the content of a directory.
 
@@ -78,6 +78,6 @@ Command: cat /path/to/file.txt
 Working Directory: Your current directory
 Output: Displays the content of the specified file
 
-![Image](catargu.png)
+![Image](catfile.png)
 
 Explanation: When you provide a file path as an argument, cat displays the content of that file. It's a useful command for reading the contents of files.
