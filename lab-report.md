@@ -28,7 +28,7 @@ Command: cd en-us.txt
 Working Directory: /home/lecture1/messages
 Output: file can not be working directory.
 
-![Image](cdwithfile.png)
+![Image](cdfile.png)
 
 ---
 
@@ -89,6 +89,6 @@ Command: cat en-us.txt
 Working Directory: /home/lecture1/messages
 Output: Displays the content of the specified file
 
-![Image](catfile.png)
+![Image](catfile2.png)
 
 Explanation: When you provide a file path as an argument, cat displays the content of that file. It's a useful command for reading the contents of files.
