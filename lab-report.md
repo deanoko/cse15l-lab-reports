@@ -1,7 +1,7 @@
 # Lab Report1
 **> Blockquote**
 
-'Command 1: Cd (Change Directory)'
+`Command 1: Cd (Change Directory)`
 
 *Example 1: Using cd with No Arguments
 Command: cd
