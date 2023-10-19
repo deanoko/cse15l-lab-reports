@@ -16,7 +16,7 @@ Explanation: When you use cd with no arguments, it takes you to your home direct
 
 *Example 2: Using cd with a Directory Path
 Command: cd lecture1
-Working Directory: lecture1
+Working Directory: /home/lecture1
 Output: No output (successful command)
 
 Explanation: Here, we specify a directory path as an argument, and the cd command takes us to that directory, as long as it exists. No output indicates success.
@@ -24,13 +24,11 @@ Explanation: Here, we specify a directory path as an argument, and the cd comman
 ![Image](cdargument.png)
 
 *Example 3: Using cd with a File Path
-Command: cd /path/to/file.txt
-Working Directory: Your current directory
-Output: Error: Not a directory
+Command: cd en-us.txt
+Working Directory: /home/lecture1/messages
+Output: file can not be working directory.
 
 ![Image](cdwithfile.png)
-
-Horizontal rule:
 
 ---
 
@@ -62,7 +60,7 @@ Command: ls messages
 Working Directory: /home/lecture1
 Output: en-us.txt  es-mx.txt  ko-kr.txt  zh-cn.txt
 
-![Image](lsfile.png)
+![Image](lsfilee.png)
 Explanation: ls expects a directory path as an argument, so providing a file path results.
 
 ---
@@ -70,7 +68,7 @@ Explanation: ls expects a directory path as an argument, so providing a file pat
 'Command 3: cat (Concatenate)'
 *Example 1: Using cat with No Arguments
 Command: cat
-Working Directory: Your current directory
+Working Directory: /home
 Output: Outputs the content of the file if you provide input via the terminal, otherwise it waits for input.
 
 ![Image](cat.png)
@@ -78,17 +76,17 @@ Output: Outputs the content of the file if you provide input via the terminal, o
 Explanation: cat without arguments waits for input from the user. It is used for viewing and concatenating file content.
 
 *Example 2: Using cat with a Directory Path
-Command: cat /path/to/directory
-Working Directory: Your current directory
-Output: Error: Is a directory
+Command: cat lecture1
+Working Directory: /home
+Output: Error Lecture1 is a directory
 
 ![Image](catargu.png)
 
 Explanation: cat expects a file path as an argument. Providing a directory path results in an error because you cannot concatenate the content of a directory.
 
 *Example 3: Using cat with a File Path
-Command: cat /path/to/file.txt
-Working Directory: Your current directory
+Command: cat en-us.txt
+Working Directory: /home/lecture1/messages
 Output: Displays the content of the specified file
 
 ![Image](catfile.png)
