@@ -1,6 +1,6 @@
 # Lab Report1
 **> Blockquote**
-## Command 1: Cd (Change Directory)
+'Command 1: Cd (Change Directory)'
 
 *Example 1: Using cd with No Arguments
 Command: cd
@@ -31,7 +31,7 @@ Horizontal rule:
 
 ---
 
-## Command 2 : ls (List)
+'Command 2 : ls (List)'
 *Example 1: Using ls with No Arguments
 Command: ls
 Working Directory: Your current directory
@@ -62,7 +62,7 @@ Horizontal rule:
 
 ---
 
-## Command 3: cat (Concatenate)
+'Command 3: cat (Concatenate)'
 *Example 1: Using cat with No Arguments
 Command: cat
 Working Directory: Your current directory
