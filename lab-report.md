@@ -4,7 +4,7 @@
 `Command 1: Cd (Change Directory)`
 
 *Example 1: Using cd with No Arguments
-Command: cd
+Command: `cd`
 
 Working Directory: `/home`
 
@@ -16,9 +16,9 @@ Explanation: When you use cd with no arguments, it takes you to your home direct
 
 *Example 2: Using cd with a Directory Path
 
-Command: cd lecture1
+Command: `cd lecture1`
 
-Working Directory: /home
+Working Directory: `/home`
 
 Output: No output (successful command)
 
@@ -26,24 +26,24 @@ Explanation: Here, we specify a directory path as an argument, and the cd comman
 
 ![Image](cdargument.png)
 
-wrong*Example 3: Using cd with a File Path
+Example 3: Using cd with a File Path
 
-Command: cd en-us.txt
+Command: `cd en-us.txt`
 
-Working Directory: /home/lecture1/messages
+Working Directory: `/home/lecture1/messages`
 
 Output: file can not be working directory.
 
-![Image](cdfile.png)
+![Image](cdfileex.png)
 
 ---
 
 `Command 2 : ls (List)`
 *Example 1: Using ls with No Arguments
 
-Command: ls
+Command: `ls`
 
-Working Directory: /home
+Working Directory: `/home`
 
 Output: List of files and subdirectories in the current directory
 
@@ -53,9 +53,9 @@ Explanation: ls with no arguments lists the contents of your current directory. 
 
 *Example 2: Using ls with a Directory Path
 
-Command: ls lecture1
+Command: `ls lecture1`
 
-Working Directory: /home
+Working Directory: `/home`
 
 Output: List of files and subdirectories in the specified directory
 
@@ -63,20 +63,28 @@ Output: List of files and subdirectories in the specified directory
 
 Explanation: When you provide a directory path as an argument to ls, it lists the contents of that directory, regardless of your current working directory.
 
-*Example 3: Using ls with a File Path   error
-Command: ls messages
-Working Directory: /home/lecture1
+*Example 3: Using ls with a File Path //need to fix the problem
+
+Command: `ls messages`
+
+Working Directory: `/home/lecture1`
+
 Output: en-us.txt  es-mx.txt  ko-kr.txt  zh-cn.txt
 
 ![Image](lsfilee.png)
+
 Explanation: ls expects a directory path as an argument, so providing a file path results.
 
 ---
 
 `Command 3: cat (Concatenate)`   
+
 *Example 1: Using cat with No Arguments
-Command: cat
-Working Directory: /home
+
+Command: `cat`
+
+Working Directory: `/home`
+
 Output: Outputs the content of the file if you provide input via the terminal, otherwise it waits for input.
 
 ![Image](cat.png)
@@ -84,8 +92,12 @@ Output: Outputs the content of the file if you provide input via the terminal, o
 Explanation: cat without arguments waits for input from the user. It is used for viewing and concatenating file content.
 
 *Example 2: Using cat with a Directory Path
-Command: cat lecture1
-Working Directory: /home
+
+Command: `cat lecture1`
+
+
+Working Directory: `/home`
+
 Output: Error Lecture1 is a directory
 
 ![Image](catargu.png)
@@ -93,8 +105,11 @@ Output: Error Lecture1 is a directory
 Explanation: cat expects a file path as an argument. Providing a directory path results in an error because you cannot concatenate the content of a directory.
 
 *Example 3: Using cat with a File Path
-Command: cat en-us.txt
-Working Directory: /home/lecture1/messages
+
+Command: `cat en-us.txt`
+
+Working Directory: `/home/lecture1/messages`
+
 Output: Displays the content of the specified file
 
 ![Image](catfile2.png)
