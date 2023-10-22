@@ -63,17 +63,17 @@ Output: List of files and subdirectories in the specified directory
 
 Explanation: When you provide a directory path as an argument to ls, it lists the contents of that directory, regardless of your current working directory.
 
-*Example 3: Using ls with a File Path //need to fix the problem
+*Example 3: Using ls with a File Path
 
-Command: `ls messages`
+Command: `ls en-us.txt`
 
-Working Directory: `/home/lecture1`
+Working Directory: `/home/lecture1/messages`
 
-Output: en-us.txt  es-mx.txt  ko-kr.txt  zh-cn.txt
+Output: 
 
 ![Image](lsfilee.png)
 
-Explanation: ls expects a directory path as an argument, so providing a file path results.
+Explanation: This command is an error because ls is intended to list the contents of directories, not individual files.
 
 ---
 
