@@ -69,9 +69,9 @@ Command: `ls en-us.txt`
 
 Working Directory: `/home/lecture1/messages`
 
-Output: 
+Output: error
 
-![Image](lsfilee.png)
+![Image](lsexample.png)
 
 Explanation: This command is an error because ls is intended to list the contents of directories, not individual files.
 
