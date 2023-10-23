@@ -7,10 +7,13 @@
 ![Image](stringserver.png)
 
 2. two screenshots of using /add-message
+
 - Add Hello
+
 ![Image](addhello.png)
 
 - Add How are you
+
 ![Image](addhowareyou.png)
 
 
