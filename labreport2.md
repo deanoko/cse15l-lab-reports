@@ -25,6 +25,7 @@
 ![Image](ssh.png)
 
 2. Private Key
+- I was trying to do this part. but I couldn't.. could you explain me about this part? how to get the private key. thank you. I will revise my lab report with the advice.
 
 ---
 
