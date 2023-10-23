@@ -21,11 +21,9 @@
 
 1. Public Key
 
-![Image](addhowareyou.png)
+![Image](ssh.png)
 
 2. Private Key
-
-![Image](addhowareyou.png)
 
 `Part3`
 
