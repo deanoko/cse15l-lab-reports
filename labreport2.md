@@ -16,6 +16,7 @@
 
 ![Image](addhowareyou.png)
 
+---
 
 `part2: Using the command line, show with ls and take screenshots of`
 
@@ -24,6 +25,8 @@
 ![Image](ssh.png)
 
 2. Private Key
+
+---
 
 `Part3`
 
