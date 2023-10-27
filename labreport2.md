@@ -4,7 +4,7 @@
 
 1. Code for StringServer Image
 
-![Image](stringserver.png)
+![Image](stringserverjava.png)
 
 2. two screenshots of using /add-message
 
@@ -16,16 +16,21 @@
 
 ![Image](addhowareyou.png)
 
+- Final Result
+
+![Image](final.png)
+
 ---
 
 `part2: Using the command line, show with ls and take screenshots of`
 
 1. Public Key
 
-![Image](ssh.png)
+![Image](Publickey.png)
 
 2. Private Key
-- I was trying to do this part. but I couldn't.. could you explain me about this part? how to get the private key. thank you. I will revise my lab report with the advice.
+
+![Image](privatekey.png)
 
 ---
 
