@@ -24,13 +24,17 @@
 
 `part2: Using the command line, show with ls and take screenshots of`
 
-1. Public Key
+1. `Public Key`
 
 ![Image](Publickey.png)
 
-2. Private Key
+2. `Private Key`
 
 ![Image](privatekey.png)
+
+3. `A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.`
+
+![Image](ienglogin.png)
 
 ---
 
