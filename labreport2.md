@@ -4,7 +4,7 @@
 
 1. Code for StringServer Image
 
-![Image](stringserverjava.png)
+![Image](StringServerjava.png)
 
 2. two screenshots of using /add-message
 
