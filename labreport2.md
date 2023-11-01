@@ -14,10 +14,6 @@
 
 - 'Add' How are you
 
-![Image](addhowareyou.png)
-
-- Final Result
-
 ![Image](finalresult.png)
 
 ---
