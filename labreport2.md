@@ -8,11 +8,11 @@
 
 2. two screenshots of using /add-message
 
-- 'Add' Hello
+- `Add` Hello
 
 ![Image](addhello.png)
 
-- 'Add' How are you
+- `Add` How are you
 
 ![Image](finalresult.png)
 
