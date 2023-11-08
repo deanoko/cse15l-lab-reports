@@ -4,7 +4,11 @@
 
 ![Image](notfixedbug.png)
 
+error: 
 ![Image](fixedbug.png)
+
+need to make temp to reverse the numbers in array.
+
 
 ---
 
