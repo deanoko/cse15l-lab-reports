@@ -4,34 +4,29 @@
 
 1. The Failure inducing input
 ```
-public void testReverseInPlace() {
-    int[] input1 = { 3, 4, 5, 6, 7 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[] { 7, 6, 5, 4, 3 }, input1);
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
 ```
-3. The symptome: Arrays first differed at element[0]; expected:<8> but was:<1>.
+3. The symptome: The reverseInPlace method did not reverse the array as expected. Instead, it resulted in unexpected behavior, possibly due to incorrect logic within the method.
 
 4. The Bug:
 
    reversed Changed:
 ```
-   static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for (int i = 0; i < arr.length; i += 1) {
-      newArray[i] = arr[arr.length - i - 1];
+static void reverseInPlace(int[] arr) {
+    for (int i = 0; i < arr.length / 2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
     }
-    return newArray;
   }
+
 ```
-I interchanged newArray and the index for arr and replaced the return statement from arr to newArray.
-
-The bug was that the new list was not having any values assigned to it.
-
-`arr[i] = newArray[arr.length - i - 1];`
-
-To this code
-
-`newArray[i] = arr[arr.length - i - 1];`
+I added the int temp to reversed numbers in array list.
+a single loop iterates through half of the array's length, and it swaps elements from the beginning and end of the array. This logic effectively reverses the array in place, providing the correct solution to the issue.
 
 ---
 
