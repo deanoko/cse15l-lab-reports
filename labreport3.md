@@ -3,13 +3,16 @@
 **part1: Bugs**
 
 1. A failure-inducing input for the buggy program, as a JUnit test and any associated code
+   
 `int[] input1 = { 3, 4, 5, 6, 7 };`
 
-2. An input that doesn’t induce a failure, as a JUnit test and any associated code
+3. An input that doesn’t induce a failure, as a JUnit test and any associated code
 
 `int[] input1 = { 3 };`
 
 3. The symptome: The reverseInPlace method did not reverse the array as expected. Instead, it resulted in unexpected behavior, possibly due to incorrect logic within the method.
+
+![Image](symptom.png)
 
 4. The bug, as the before-and-after code change required to fix it
 
