@@ -2,7 +2,18 @@
 
 **part1: Bugs**
 
-1. The Failure inducing input
+1. A failure-inducing input for the buggy program, as a JUnit test and any associated code
+`int[] input1 = { 3, 4, 5, 6, 7 };`
+
+2. An input that doesn’t induce a failure, as a JUnit test and any associated code
+
+`int[] input1 = { 3 };`
+
+3. The symptome: The reverseInPlace method did not reverse the array as expected. Instead, it resulted in unexpected behavior, possibly due to incorrect logic within the method.
+
+4. The bug, as the before-and-after code change required to fix it
+
+- bug, as the before change
 ```
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -10,11 +21,8 @@
     }
   }
 ```
-3. The symptome: The reverseInPlace method did not reverse the array as expected. Instead, it resulted in unexpected behavior, possibly due to incorrect logic within the method.
+- after code change required to fix it:
 
-4. The Bug:
-
-   reversed Changed:
 ```
 static void reverseInPlace(int[] arr) {
     for (int i = 0; i < arr.length / 2; i += 1) {
