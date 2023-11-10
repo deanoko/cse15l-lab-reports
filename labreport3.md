@@ -147,7 +147,7 @@ technical/biomed/1472-6920-2-3.txt:426:        South Korea [ 5 ] and for a Turki
 
 - Useful: searching for whole word, so I can find only typing word will show out all the lines eventhought the word is normal.
 
-Example 1:"Korea"
+Example 1:"Korea" changed to realistic will show only realistic not unrealistic
 ```
 Dean@LAPTOP-TA1ANDA7 MINGW64 ~/docsearch (main)
 $ grep -w "Korea" technical/*/*.txt
