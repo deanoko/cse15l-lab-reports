@@ -6,13 +6,13 @@
    
 `int[] input1 = { 3, 4, 5, 6, 7 };`
 
-'expected value: 7,6,5,4,3'
+`expected value: 7,6,5,4,3`
 
 2. An input that doesn’t induce a failure, as a JUnit test and any associated code
 
 `int[] input1 = { 3 };`
 
-'expected value: 3'
+`expected value: 3`
 
 3. The symptome: The reverseInPlace method did not reverse the array as expected. Instead, it resulted in unexpected behavior, possibly due to incorrect logic within the method.
 
