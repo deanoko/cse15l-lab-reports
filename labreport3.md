@@ -6,7 +6,7 @@
    
 `int[] input1 = { 3, 4, 5, 6, 7 };`
 
-3. An input that doesn’t induce a failure, as a JUnit test and any associated code
+2. An input that doesn’t induce a failure, as a JUnit test and any associated code
 
 `int[] input1 = { 3 };`
 
