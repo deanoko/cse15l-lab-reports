@@ -177,3 +177,40 @@ technical/911report/chapter-13.3.txt:                updated June 18, 2003 (onli
 ```
 -Display "fbi" and "FBI" Whole word.
 
+---
+4.The 'grep' command: Option -c
+
+- want to count that how many lines matches the given pattern/string, then use the option -c.
+
+Example 1: 
+```
+$ grep -c "go" technical/*/*.txt
+
+technical/biomed/1471-2121-3-22.txt:2
+technical/biomed/1471-2121-3-25.txt:15
+technical/biomed/1471-2121-3-30.txt:20
+technical/biomed/1471-2121-3-4.txt:6
+technical/biomed/1471-2121-3-6.txt:9
+technical/biomed/1471-2121-3-8.txt:6
+technical/biomed/1471-2121-4-1.txt:3
+technical/biomed/1471-2121-4-2.txt:3
+technical/biomed/1471-2121-4-3.txt:4
+technical/biomed/1471-2121-4-4.txt:1
+technical/biomed/1471-2121-4-5.txt:1
+technical/biomed/1471-2121-4-6.txt:3
+technical/biomed/1471-213X-1-1.txt:3
+technical/biomed/1471-213X-1-10.txt:8
+technical/biomed/1471-213X-1-11.txt:6
+technical/biomed/1471-213X-1-12.txt:4
+technical/biomed/1471-213X-1-13.txt:11
+technical/biomed/1471-213X-1-15.txt:9
+technical/biomed/1471-213X-1-2.txt:6
+technical/biomed/1471-213X-1-3.txt:0
+technical/biomed/1471-213X-1-4.txt:4
+technical/biomed/1471-213X-1-6.txt:4
+```
+- show how many lines matches the given 'go'.
+
+Example2 :
+```
+```
