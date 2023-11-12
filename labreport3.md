@@ -83,8 +83,10 @@ technical/plos/journal.pbio.0020121.txt:        imported cases in the Republic o
 
 ```
 
-   I got all words include "Korea"
-   
+I got all words include "Korea"
+
+---
+
 2.  Example 2: "Design"
 
 ```
@@ -123,7 +125,7 @@ technical/biomed/1471-2474-3-23.txt:          designed to engage into the endpla
 Example 1: "ucsd"
 ```
 
-$ grep -b "ucsd" technical/*/*.txt
+`$ grep -b "ucsd" technical/*/*.txt`
 technical/biomed/1471-2121-2-22.txt:10005:        http://ncmir.ucsd.edu/~perkins/tBid. For example, it became
 technical/biomed/1471-2164-3-18.txt:39874:          http://genome.ucsd.edu/index.html [ 54 55 ] . The
 
@@ -132,7 +134,7 @@ technical/biomed/1471-2164-3-18.txt:39874:          http://genome.ucsd.edu/index
 
 Example 2: "South Korea"
 ```
-$ grep -b "South Korea" technical/*/*.txt
+`$ grep -b "South Korea" technical/*/*.txt`
 technical/911report/chapter-13.4.txt:35297:                Khallad, Aug. 13, 2003; Apr. 5, 2004. According to Khallad, Thailand, South Korea,
 technical/911report/chapter-5.txt:38494:                Thailand, South Korea, Hong Kong, or Malaysia, and using Yemenis who would not need
 technical/biomed/1472-6823-2-2.txt:4416:          Jolla, CA; Sofia, Bulgaria; Seoul, South Korea and São
@@ -147,31 +149,31 @@ technical/biomed/1472-6920-2-3.txt:426:        South Korea [ 5 ] and for a Turki
 
 - Useful: searching for whole word, so I can find only typing word will show out all the lines eventhought the word is normal.
 
-Example 1:"Korea" changed to realistic will show only realistic not unrealistic
+`Example 1:"Korea" changed to realistic will show only realistic not unrealistic
 ```
-Dean@LAPTOP-TA1ANDA7 MINGW64 ~/docsearch (main)
-$ grep -w "Korea" technical/*/*.txt
-technical/911report/chapter-11.txt:                in Korea another. But these were attacks by major powers. While by no means as
-technical/911report/chapter-11.txt:                the main focus (war in Korea), and as too unrealistic. As we pointed out in chapter
-technical/911report/chapter-13.4.txt:                Khallad, Aug. 13, 2003; Apr. 5, 2004. According to Khallad, Thailand, South Korea,
-technical/911report/chapter-5.txt:                Singapore, or Korea.) This part of the operation has been confirmed by Khallad, who
-technical/911report/chapter-5.txt:                Thailand, South Korea, Hong Kong, or Malaysia, and using Yemenis who would not need
-technical/911report/chapter-6.txt:                emphasized other issues such as North Korea and the Israeli- Palestinian peace
-technical/911report/chapter-6.txt:                with the faltering Middle East peace process and North Korea. Clarke said that the
-technical/biomed/1471-2148-2-17.txt:          Korea, and was previously considered a species of subg. 
-technical/biomed/1471-2148-2-17.txt:          Europe and the Far East in Manchuria, Korea, and Japan.
-technical/biomed/1471-2156-3-11.txt:          from SeeGene (Seoul, Korea). The 
-technical/biomed/1472-6823-2-2.txt:          Jolla, CA; Sofia, Bulgaria; Seoul, South Korea and São
-technical/biomed/1472-6823-2-2.txt:          Brazil; The Catholic University of Korea, Seoul, South
-technical/biomed/1472-6823-2-2.txt:          Korea). No information that would identify the subjects
-technical/biomed/1472-6920-2-3.txt:        South Korea [ 5 ] and for a Turkish medical school [ 6 ] .
-technical/plos/journal.pbio.0020121.txt:        imported cases in the Republic of Korea, but surveillance has not been thorough in North
+`$ grep -w "realistic" technical/*/*.txt`
+
+technical/911report/chapter-12.txt:                    best. They should expect that officials will have realistic objectives, clear
+technical/911report/chapter-12.txt:                    actual or potential terrorist sanctuaries. For each, it should have a realistic
+technical/911report/chapter-12.txt:                    aggressive and realistic training in accordance with ICS and unified command
+technical/biomed/1471-2105-2-8.txt:          introducing realistic flexibility is that we have
+technical/biomed/1471-2105-2-8.txt:          realistic scenario for QRNA; a BLASTN primary sequence
+technical/biomed/1471-2105-2-8.txt:          To test QRNA performance in a realistic whole genome
+technical/biomed/1471-2105-3-14.txt:        efficiently on realistic data sets, though it has an
+technical/biomed/1471-2105-4-26.txt:          realistic goal, say, to detect genes with effect size ≥
+technical/biomed/1471-2164-3-27.txt:          represent a more realistic assessment of the underlying
+technical/biomed/1471-2164-4-4.txt:        detected in a realistic experiment.
+technical/biomed/1471-2253-2-5.txt:        is based on the use of a physiologically realistic model of
+technical/biomed/1471-2288-3-8.txt:          a realistic value for ψ
+technical/biomed/1471-2288-3-8.txt:        realistic lower bound for ψ 
+technical/biomed/1471-2288-3-9.txt:          example, but is probably not realistic. Even interpreting
+technical/biomed/1471-2288-3-9.txt:          never realistic. The next step in improving these
+technical/biomed/1471-2288-3-9.txt:          realistic values, is absent. Furthermore, the intuition
 ```
-- Display "Korea" and "korea" whole word.
 
 Example 2: "fbi"
 ```
-$ grep -w "fbi" technical/*/*.txt
+`$ grep -w "fbi" technical/*/*.txt`
 technical/911report/chapter-13.3.txt:                FBI" (online at www.fbi.gov/libref/historic/history/historymain.htm); the FBI's
 technical/911report/chapter-13.3.txt:                updated June 18, 2003 (online at www.fas.org/irp/agency/doj/fbi/fbi_hist.htm). For
 ```
@@ -184,7 +186,7 @@ technical/911report/chapter-13.3.txt:                updated June 18, 2003 (onli
 
 Example 1: 
 ```
-$ grep -c "go" technical/*/*.txt
+`$ grep -c "go" technical/*/*.txt`
 
 technical/biomed/1471-2121-3-22.txt:2
 technical/biomed/1471-2121-3-25.txt:15
@@ -213,4 +215,29 @@ technical/biomed/1471-213X-1-6.txt:4
 
 Example2 :
 ```
+`$ grep -c "realistic" technical/*/*.txt`
+
+technical/plos/pmed.0020206.txt:0
+technical/plos/pmed.0020208.txt:0
+technical/plos/pmed.0020209.txt:0
+technical/plos/pmed.0020210.txt:0
+technical/plos/pmed.0020212.txt:0
+technical/plos/pmed.0020216.txt:0
+technical/plos/pmed.0020226.txt:0
+technical/plos/pmed.0020231.txt:0
+technical/plos/pmed.0020232.txt:0
+technical/plos/pmed.0020235.txt:0
+technical/plos/pmed.0020236.txt:0
+technical/plos/pmed.0020237.txt:0
+technical/plos/pmed.0020238.txt:0
+technical/plos/pmed.0020239.txt:3
+technical/plos/pmed.0020242.txt:0
+technical/plos/pmed.0020246.txt:0
+technical/plos/pmed.0020247.txt:0
+technical/plos/pmed.0020249.txt:11
+technical/plos/pmed.0020257.txt:0
+technical/plos/pmed.0020258.txt:1
+technical/plos/pmed.0020268.txt:0
+technical/plos/pmed.0020272.txt:1
+technical/plos/pmed.0020273.txt:0
 ```
