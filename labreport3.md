@@ -85,8 +85,6 @@ technical/plos/journal.pbio.0020121.txt:        imported cases in the Republic o
 
 I got all words include "Korea"
 
----
-
 2.  Example 2: "Design"
 
 ```
