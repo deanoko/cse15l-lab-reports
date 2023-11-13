@@ -16,7 +16,7 @@
 
 3. The symptome: The reverseInPlace method did not reverse the array as expected. Instead, it resulted in unexpected behavior, possibly due to incorrect logic within the method.
 
-- failure-inducing input
+4. - failure-inducing input
 ![Image](symptom.png)
 
 - input that doesn’t induce a failure
