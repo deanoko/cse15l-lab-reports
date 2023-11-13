@@ -149,7 +149,8 @@ technical/biomed/1472-6920-2-3.txt:426:        South Korea [ 5 ] and for a Turki
 
 - Useful: searching for whole word, so I can find only typing word will show out all the lines eventhought the word is normal.
 
-`Example 1:"Korea" changed to realistic will show only realistic not unrealistic
+`Example 1: "Korea" changed to realistic will show only realistic not unrealistic.'
+
 ```
 `$ grep -w "realistic" technical/*/*.txt`
 
@@ -177,9 +178,8 @@ Example 2: "fbi"
 technical/911report/chapter-13.3.txt:                FBI" (online at www.fbi.gov/libref/historic/history/historymain.htm); the FBI's
 technical/911report/chapter-13.3.txt:                updated June 18, 2003 (online at www.fas.org/irp/agency/doj/fbi/fbi_hist.htm). For
 ```
--Display "fbi" and "FBI" Whole word.
-
 ---
+
 4.The 'grep' command: Option -c
 
 - want to count that how many lines matches the given pattern/string, then use the option -c.
