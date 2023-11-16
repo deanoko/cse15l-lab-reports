@@ -114,6 +114,7 @@ technical/biomed/1471-2474-3-23.txt:          designed to engage into the endpla
 - There are more results. I typed "Design", which finds instances of "design" because it ignores upper / lower cases.
 
 ---
+
 2. The 'grep' command: Option -b
 
 - Display the block number at the beginning of each line.
@@ -121,6 +122,7 @@ technical/biomed/1471-2474-3-23.txt:          designed to engage into the endpla
 - Useful: -b is the option which prints the specified N lines before the match. When doing a grep on a huge file, it may be useful to see some lines after the match.
 
 Example 1: "ucsd"
+
 ```
 
 `$ grep -b "ucsd" technical/*/*.txt`
@@ -137,10 +139,12 @@ technical/911report/chapter-13.4.txt:35297:                Khallad, Aug. 13, 200
 technical/911report/chapter-5.txt:38494:                Thailand, South Korea, Hong Kong, or Malaysia, and using Yemenis who would not need
 technical/biomed/1472-6823-2-2.txt:4416:          Jolla, CA; Sofia, Bulgaria; Seoul, South Korea and São
 technical/biomed/1472-6920-2-3.txt:426:        South Korea [ 5 ] and for a Turkish medical school [ 6 ] .
+
 ```
 -The numbers are the block numbers [35297,38494,4416,426].
 
 ---
+
 3. The 'grep' command: Option -w
 
 - Display matching whole word.
@@ -168,9 +172,11 @@ technical/biomed/1471-2288-3-8.txt:        realistic lower bound for ψ
 technical/biomed/1471-2288-3-9.txt:          example, but is probably not realistic. Even interpreting
 technical/biomed/1471-2288-3-9.txt:          never realistic. The next step in improving these
 technical/biomed/1471-2288-3-9.txt:          realistic values, is absent. Furthermore, the intuition
+
 ```
 
 Example 2: "fbi"
+
 ```
 `$ grep -w "fbi" technical/*/*.txt`
 technical/911report/chapter-13.3.txt:                FBI" (online at www.fbi.gov/libref/historic/history/historymain.htm); the FBI's
@@ -208,10 +214,12 @@ technical/biomed/1471-213X-1-2.txt:6
 technical/biomed/1471-213X-1-3.txt:0
 technical/biomed/1471-213X-1-4.txt:4
 technical/biomed/1471-213X-1-6.txt:4
+
 ```
 - show how many lines matches the given 'go'.
 
 Example2 :
+
 ```
 `$ grep -c "realistic" technical/*/*.txt`
 
@@ -238,4 +246,5 @@ technical/plos/pmed.0020258.txt:1
 technical/plos/pmed.0020268.txt:0
 technical/plos/pmed.0020272.txt:1
 technical/plos/pmed.0020273.txt:0
+
 ```
