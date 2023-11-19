@@ -122,7 +122,7 @@ technical/biomed/1471-2474-3-23.txt:          designed to engage into the endpla
 
 ---
 
-2. The 'grep' command: Option -b
+2.The 'grep' command: Option -b.
 
 - Display the block number at the beginning of each line.
 
@@ -152,7 +152,7 @@ technical/biomed/1472-6920-2-3.txt:426:        South Korea [ 5 ] and for a Turki
 
 ---
 
-3. The 'grep' command: Option -w
+3.The 'grep' command: Option -w.
 
 - Display matching whole word.
 
