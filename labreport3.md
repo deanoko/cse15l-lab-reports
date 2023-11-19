@@ -2,19 +2,19 @@
 
 **part1: Bugs**
 
-1. A failure-inducing input for the buggy program, as a JUnit test and any associated code
+1. A failure-inducing input for the buggy program, as a JUnit test and any associated code.
    
 `int[] input1 = { 3, 4, 5, 6, 7 };`
 
 `expected value: 7,6,5,4,3`
 
-2. An input that doesn’t induce a failure, as a JUnit test and any associated code
+2.An input that doesn’t induce a failure, as a JUnit test and any associated code.
 
 `int[] input1 = { 3 };`
 
-`expected value: 3`
+`expected value: 3`.
 
-3. The symptome: The reverseInPlace method did not reverse the array as expected. Instead, it resulted in unexpected behavior, possibly due to incorrect logic within the method.
+3.The symptome: The reverseInPlace method did not reverse the array as expected. Instead, it resulted in unexpected behavior, possibly due to incorrect logic within the method.
 
 4.
 
@@ -24,7 +24,7 @@
 - input that doesn’t induce a failure
 ![Image](success.png)   
 
-5. The bug, as the before-and-after code change required to fix it
+5. The bug, as the before-and-after code change required to fix it.
 
 - bug, as the before change
 
