@@ -16,7 +16,9 @@
 
 3. The symptome: The reverseInPlace method did not reverse the array as expected. Instead, it resulted in unexpected behavior, possibly due to incorrect logic within the method.
 
-4. - failure-inducing input
+4.
+
+- failure-inducing input
 ![Image](symptom.png)
 
 - input that doesn’t induce a failure
@@ -25,13 +27,16 @@
 5. The bug, as the before-and-after code change required to fix it
 
 - bug, as the before change
+
 ```
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
   }
+
 ```
+
 - after code change required to fix it:
 
 ```
@@ -61,6 +66,8 @@ a single loop iterates through half of the array's length, and it swaps elements
 
    - Useful: This Searches for the given string/pattern case insensitively. so it masthces all the words insensitiely as shown below.
 
+Example 1: `Korea`
+
 ```
 Dean@LAPTOP-TA1ANDA7 MINGW64 ~/docsearch (main)
 $ grep -i "Korea" technical/*/*.txt
@@ -85,7 +92,7 @@ technical/plos/journal.pbio.0020121.txt:        imported cases in the Republic o
 
 I got all words include "Korea"
 
-2.  Example 2: "Design"
+Example 2: `Design`
 
 ```
 
@@ -121,7 +128,7 @@ technical/biomed/1471-2474-3-23.txt:          designed to engage into the endpla
 
 - Useful: -b is the option which prints the specified N lines before the match. When doing a grep on a huge file, it may be useful to see some lines after the match.
 
-Example 1: "ucsd"
+Example 1: `ucsd`
 
 ```
 
@@ -132,7 +139,7 @@ technical/biomed/1471-2164-3-18.txt:39874:          http://genome.ucsd.edu/index
 ```
 - 10005 and 39874 is the block number at the beggining of each line.
 
-Example 2: "South Korea"
+Example 2: `South Korea`
 ```
 `$ grep -b "South Korea" technical/*/*.txt`
 technical/911report/chapter-13.4.txt:35297:                Khallad, Aug. 13, 2003; Apr. 5, 2004. According to Khallad, Thailand, South Korea,
@@ -151,9 +158,10 @@ technical/biomed/1472-6920-2-3.txt:426:        South Korea [ 5 ] and for a Turki
 
 - Useful: searching for whole word, so I can find only typing word will show out all the lines eventhought the word is normal.
 
-`Example 1: realistic will show only realistic not unrealistic.'
+Example 1: `realistic`
 
 ```
+
 `$ grep -w "realistic" technical/*/*.txt`
 
 technical/911report/chapter-12.txt:                    best. They should expect that officials will have realistic objectives, clear
@@ -175,7 +183,7 @@ technical/biomed/1471-2288-3-9.txt:          realistic values, is absent. Furthe
 
 ```
 
-Example 2: "fbi"
+Example 2: `fbi`
 
 ```
 `$ grep -w "fbi" technical/*/*.txt`
@@ -188,7 +196,8 @@ technical/911report/chapter-13.3.txt:                updated June 18, 2003 (onli
 
 - want to count that how many lines matches the given pattern/string, then use the option -c.
 
-Example 1: 
+Example 1: `technical`
+
 ```
 `$ grep -c "go" technical/*/*.txt`
 
@@ -218,7 +227,7 @@ technical/biomed/1471-213X-1-6.txt:4
 ```
 - show how many lines matches the given 'go'.
 
-Example2 :
+Example2: `realistic`
 
 ```
 `$ grep -c "realistic" technical/*/*.txt`
@@ -248,3 +257,4 @@ technical/plos/pmed.0020272.txt:1
 technical/plos/pmed.0020273.txt:0
 
 ```
+---
