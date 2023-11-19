@@ -2,7 +2,7 @@
 
 **part1: Bugs**
 
-1. A failure-inducing input for the buggy program, as a JUnit test and any associated code.
+1.A failure-inducing input for the buggy program, as a JUnit test and any associated code.
    
 `int[] input1 = { 3, 4, 5, 6, 7 };`
 
@@ -24,7 +24,7 @@
 - input that doesn’t induce a failure
 ![Image](success.png)   
 
-5. The bug, as the before-and-after code change required to fix it.
+5.The bug, as the before-and-after code change required to fix it.
 
 - bug, as the before change
 
