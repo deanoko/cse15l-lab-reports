@@ -2,10 +2,15 @@
 
 `part1: Write a webserver called StringServer`
 
-1. Code for StringServer Image
+1. Log into ieng6
 
-![Image](StringServerjava.png)
+![Image](ienglogined.png)
 
+2. Clone your fork of the repository from your Github account (using the SSH URL)
+
+3.
+
+4.
 
 ---
 
