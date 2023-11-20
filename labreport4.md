@@ -6,11 +6,13 @@
 
 ![Image](ienglogined.png)
 
-2. Clone your fork of the repository from your Github account (using the SSH URL)
+2. Clone your fork of the repository from your Github account (using the SSH URL).
 
-3.
+![Image](gitclone.png)
 
 4.
+
+5.
 
 ---
 
