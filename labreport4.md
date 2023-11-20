@@ -11,12 +11,15 @@
 ![Image](gitclone.png)
 
 3. Run the tests, demonstrating that they fail.
-![Image](gitclone.png)
+![Image](errorvim.png)
 
 4. Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge).
-![Image](gitclone.png)
+![Image](logintovim2.png)
 
-6. Run the tests, demonstrating that they now succeed.
+![Image](changevim.png)
+
+5. Run the tests, demonstrating that they now succeed.
+![Image](successtest.png)
 
 7. Commit and push the resulting change to your Github account.
 
