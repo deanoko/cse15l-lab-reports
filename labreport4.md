@@ -4,6 +4,8 @@
 
 1. Log into ieng6
 
+after type in the ieng6 Id press the '<enter>'
+
 ![Image](ienglogined.png)
 
 2. Clone your fork of the repository from your Github account (using the SSH URL).
