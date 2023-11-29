@@ -4,7 +4,7 @@
 
 1. Log into ieng6
 
-after type in the ieng6 Id press the '<enter>'
+after type in the ieng6 Id press the <enter>
 
 ![Image](ienglogined.png)
 
