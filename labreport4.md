@@ -4,7 +4,7 @@
 
 1. Log into ieng6
 
-after type in the ieng6 Id press the <enter>
+after type in the ieng6 Id press the `<enter>`
 
 ![Image](ienglogined.png)
 
@@ -13,9 +13,11 @@ after type in the ieng6 Id press the <enter>
 ![Image](gitclone.png)
 
 3. Run the tests, demonstrating that they fail.
+
+`bash test.sh`
 ![Image](errorvim.png)
 
-4. Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge).
+5. Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge).
 - 'Failed message'
 ![Image](logintovim2.png)
 
