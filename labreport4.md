@@ -75,7 +75,7 @@
 
 6. Commit and push the resulting change to your Github account.
 
-`<git add ListExamples.java> <enter> git commit <enter> fixcode <enter>`
+`<git add ListExamples.java> <enter> git commit <enter> error fixed <enter>`
  
  ![Image](gitmessage.png)
  
