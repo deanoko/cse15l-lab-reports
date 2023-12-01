@@ -20,9 +20,9 @@
 
 - `cd lab7 <enter> bash test.sh <enter>`
   
-- cd lab7 means changing directory to lab7
+- `cd lab7` means changing directory to lab7
   
-- test.sh means running the program
+- `bash test.sh` means that compile and run the program.
   
 - Failed message
   
@@ -35,27 +35,13 @@
   
 ![Image](logintovim2.png)
 
-- 'Fix Problem1'
-  
-![Image](problem1.png)
-
-`<down><down><down><down><down><down><down><down><down><down><down><down><down><down><right><right><right><right><right><right><right><right><right><right><right><right><right><right><right><right><right><right><right><right><right><right> <i> <backspace><backspace><backspace> <esc>`
-
-- The line that have error is located in 15 rows, which made me press down 14 times.
-
-- Press the <i> to revise the code and press the <backspace> 3 times to delete the wrong code.
-
-- after fixing the code, press the <esc> to end revising the code.
-  
-![Image](fix1.png)
-
-- `Fix Problem2`
+- `Fix The Problem`
 
 ![Image](problem2.png)
 
-`<down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><left><left><left><left><left> <i> <backspace> <2> <esc>`
+`<down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><right><right><right><right><right><right><right><right><right><right><right><right> <i> <backspace> <2> <esc>`
 
-- The line that have error is located in 44 rows, which made me press down 29 times.
+- The line that have error is located in 44 rows, which made me press down 43 times.
 
 - Press the <i> to revise the code and press the <backspace> 1 times to delete the wrong code and then type in the 2.
 
@@ -73,13 +59,25 @@
 
 ![Image](successtest.png)
 
+- `bash test.sh` means that compile and run the program. Now confirmed working properly.
+
 6. Commit and push the resulting change to your Github account.
 
-`<git add ListExamples.java> <enter> git commit <enter> error fixed <enter>`
+`<git add ListExamples.java> <enter> git commit <enter> error fixed <:wq> <enter> git push <enter>`
+
+- `<git add>` : made changes to a file called ListExamples.java and you want to stage those changes.
+
+- `<git commit>` : git commit command is used to save the changes I have made to the repository
+
+- `<git push>` : the command is used to upload your local branch and its commits to a remote repository. 
  
- ![Image](gitmessage.png)
+![Image](gitmessage.png)
  
- ![Image](gitcommit2.png)
+![Image](gitcommit2.png)
+
+![Image](gitpush.png)
+
+![Image](gitpush2.png)
 
 ---
 
