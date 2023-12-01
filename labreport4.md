@@ -6,11 +6,15 @@
 
 - `ssh cs15lfa23m@ieng6.ucsd.edu <enter>`
 
+- Log into Ieng6 account
+
 ![Image](ienglogined.png)
 
 2. Clone your fork of the repository from your Github account (using the SSH URL).
 
 -  `git clone <Ctrl> <V> <enter>`
+
+- `<git clone>` : clone files from github.
 
 -  Ctrl+V is git@github.com:deanoko/lab7.git
 
@@ -22,7 +26,7 @@
   
 - `cd lab7` means changing directory to lab7
   
-- `bash test.sh` means that compile and run the program.
+- `bash test.sh` means that compile and run the test.
   
 - Failed message
   
@@ -31,7 +35,7 @@
 
 4. Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge).
 
-- `vim ListExamples.java <Enter>`
+- `vim ListExamples.java <Enter>` (This would open the file in the editor
   
 ![Image](logintovim2.png)
 
@@ -65,11 +69,11 @@
 
 `<git add ListExamples.java> <enter> git commit <enter> error fixed <:wq> <enter> git push <enter>`
 
-- `<git add>` : made changes to a file called ListExamples.java and you want to stage those changes.
+- `<git add>` :  add the file to staging area.
 
-- `<git commit>` : git commit command is used to save the changes I have made to the repository
+- `<git commit>` : git commit command is used to commit the changes I have made to the repository
 
-- `<git push>` : the command is used to upload your local branch and its commits to a remote repository. 
+- `<git push>` : the command is used to update your local commits to a github. 
  
 ![Image](gitmessage.png)
  
