@@ -10,6 +10,8 @@
 
 ![Image](ienglogined.png)
 
+---
+
  2. Clone your fork of the repository from your Github account (using the SSH URL).
 
 -  `git clone <Ctrl> <V> <enter>`
@@ -19,6 +21,8 @@
 -  Ctrl+V is git@github.com:deanoko/lab7.git
 
 ![Image](gitclone2.png)
+
+---
 
  3. Run the tests, demonstrating that they fail.
 
@@ -32,6 +36,7 @@
   
 ![Image](failedmessage.png)
 
+---
 
 4. Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge).
 
@@ -45,7 +50,7 @@
 
 `<down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><right><right><right><right><right><right><right><right><right><right><right><right> <i> <backspace> <2> <esc>`
 
-- The line that have error is located in 44 rows, which made me press down 43 times.
+- The line that have error is located in 44 rows, which made me press `down` 43 times.
 
 - Press the `<i>` to revise the code and press the `<backspace>` 1 times to delete the wrong code and then type in the 2.
 
@@ -56,7 +61,9 @@
 - to exit from vim: `:wq <enter>`
 
 - meaning :wq is that exit with save from vim.
-  
+
+---
+
 5. Run the tests, demonstrating that they now succeed.
 
 `bash test.sh <enter>`
@@ -64,6 +71,8 @@
 ![Image](successtest.png)
 
 - `bash test.sh` means that compile and run the program. Now confirmed working properly.
+
+---
 
 6. Commit and push the resulting change to your Github account.
 
