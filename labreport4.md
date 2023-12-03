@@ -2,7 +2,7 @@
 
 `part1: Write a webserver called StringServer`
 
-1. Log into ieng6
+ 1. Log into ieng6
 
 - `ssh cs15lfa23m@ieng6.ucsd.edu <enter>`
 
@@ -10,7 +10,7 @@
 
 ![Image](ienglogined.png)
 
-2. Clone your fork of the repository from your Github account (using the SSH URL).
+ 2. Clone your fork of the repository from your Github account (using the SSH URL).
 
 -  `git clone <Ctrl> <V> <enter>`
 
@@ -20,7 +20,7 @@
 
 ![Image](gitclone2.png)
 
-3. Run the tests, demonstrating that they fail.
+ 3. Run the tests, demonstrating that they fail.
 
 - `cd lab7 <enter> bash test.sh <enter>`
   
