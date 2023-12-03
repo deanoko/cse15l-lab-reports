@@ -35,7 +35,7 @@
 
 4. Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge).
 
-- `vim ListExamples.java <Enter>` (This would open the file in the editor
+- `vim ListExamples.java <Enter>` (This would open the file in the editor)
   
 ![Image](logintovim2.png)
 
@@ -47,9 +47,9 @@
 
 - The line that have error is located in 44 rows, which made me press down 43 times.
 
-- Press the <i> to revise the code and press the <backspace> 1 times to delete the wrong code and then type in the 2.
+- Press the `<i>` to revise the code and press the `<backspace>` 1 times to delete the wrong code and then type in the 2.
 
-- after fixing the code, press the <esc> to end revising the code.
+- after fixing the code, press the `<esc>` to end revising the code.
 
 ![Image](fix2.png)
 
