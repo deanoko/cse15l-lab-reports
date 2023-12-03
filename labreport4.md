@@ -12,7 +12,7 @@
 
 ---
 
- 2. Clone your fork of the repository from your Github account (using the SSH URL).
+2.Clone your fork of the repository from your Github account (using the SSH URL).
 
 -  `git clone <Ctrl> <V> <enter>`
 
@@ -24,7 +24,7 @@
 
 ---
 
- 3. Run the tests, demonstrating that they fail.
+3.Run the tests, demonstrating that they fail.
 
 - `cd lab7 <enter> bash test.sh <enter>`
   
@@ -38,7 +38,7 @@
 
 ---
 
-4. Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge).
+4.Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge).
 
 - `vim ListExamples.java <Enter>` (This would open the file in the editor)
   
@@ -64,7 +64,7 @@
 
 ---
 
-5. Run the tests, demonstrating that they now succeed.
+5.Run the tests, demonstrating that they now succeed.
 
 `bash test.sh <enter>`
 
@@ -74,7 +74,7 @@
 
 ---
 
-6. Commit and push the resulting change to your Github account.
+6.Commit and push the resulting change to your Github account.
 
 `<git add ListExamples.java> <enter> git commit <enter> error fixed <:wq> <enter> git push <enter>`
 
