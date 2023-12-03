@@ -53,10 +53,33 @@ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
 ```
 ---
+
+`3.Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.`
+
 `Unexpected Output:`
 
 ![Image](errorlab5.png)
 
 ``` To, TA
 
+```
+---
+4.At the end, all the information needed about the setup including:
+- `The file & directory structure needed`
+```
+lab3
+ -lib
+  - ArrayExamples.java
+  - ArrayTests.java
+  - test.sh
+```
 
+- The contents of each file before fixing the bug
+  
+- The full command line (or lines) you ran to trigger the bug
+
+- `A description of what to edit to fix the bug:`
+```
+The issue is likely related to how you're accessing array elements. Check the part of your code where you handle array indices
+and make sure you're not going out of bounds. Consider validating the array length and adjusting your logic accordingly.
+```  
