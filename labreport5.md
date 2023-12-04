@@ -161,7 +161,8 @@ public void testReverseInPlace() {
 `bash test.sh`
 
 - `A description of what to edit to fix the bug:`
-`In the ArrayUtils.java file, update the reverseInPlace method to correctly reverse the array using a proper swapping technique:`
+
+`In the ArrayExamples.java file, update the reverseInPlace method to correctly reverse the array using a proper swapping technique: made a new int temp to fix the problem`
 
 ```
   static void reverseInPlace(int[] arr) {
