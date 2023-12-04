@@ -5,66 +5,83 @@
 `1. Subject: Issue with my Java Program`
 
 ```
-Hi,
+Hello,
 
-I'm having trouble with my Java program, and I can't figure out what's going wrong. I've attached a screenshot that shows the issue. When I run my program, it gives this weird output, and I can't understand why. I've checked my code, and it seems fine to me.
+I'm encountering an issue with the reverseInPlace method in my Java code.
+The function is supposed to reverse the input array in-place, but it seems like there's a bug.
+I've attached a screenshot of the problematic code below.
+
 ```
-
 ```
 Error Code :
-public class ArrayExamples {
-
- // Averages the numbers in the array (takes the mean), but leaves out the
- // lowest number when calculating. Returns 0 if there are no elements or just
- // 1 element in the array
-  static double averageWithoutLowest(double[] arr) {
-  if(arr.length < 2) { return 0.0; }
-  double lowest = arr[0];
-  for(double num: arr) {
-    if(num < lowest) { lowest = num; }
+ // Changes the input array to be in reversed order
+    static void reverseInPlace(int[] arr) {
+        for (int i = 0; i < arr.length; i += 1) {
+            arr[i] = arr[arr.length - i - 1];
+        }
     }
-    double sum = 0;
-    for(double num: arr) {
-      if(num != lowest) { sum += num; }
-    }
-    return sum / (arr.length - 1);
-  }
 
-}
 ```
+```
+Test Code :
+ @Test
+ public void testReverseInPlace() {
+   int[] input1 = { 3, 4, 5, 6, 7 };
+   ArrayExamples.reverseInPlace(input1);
+   assertArrayEquals(new int[] { 7, 6, 5, 4, 3 }, input1);
+ }
+```
+
 ```
 Description of the issue:
-
-The program is supposed to read a list of numbers from a file and calculate their average, but it's giving me unexpected output. I suspect there might be an issue with my file reading or array manipulation.
-Can you help me figure out what might be causing this?
-
+I suspect the issue is with the reverseInPlace method, but I can't quite figure out what's wrong. Any insights?
 Thanks!
 ```
-
-![Image](ienglogined.png)
-
 ---
+
 `2. A response from a TA asking a leading question or suggesting a command to try`
+
 ```
 Hi there!
 
-Thanks for reaching out. It looks like you're getting unexpected output in your Java program. To help you debug, could you try running your program with the following command?
-javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
-java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
+Thanks for reaching out. It looks like there might be an issue with your reverseInPlace method.
+The logic you've shared seems to be modifying the array, but it might not be achieving the desired reversal.
+
+Could you try replacing your reverseInPlace method with the following code and run your test again?
+This code reverses the array by swapping elements up to the middle point. Give it a try and let me know how it goes!
+```
+
+```
+Code:
+  static void reverseInPlace(int[] arr) {
+    for (int i = 0; i < arr.length / 2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
 ```
 ---
 
 `3.Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.`
 
-`Unexpected Output:`
+```Hey,
 
-![Image](errorlab5.png)
-
-``` To, TA
-
+I tried the updated code for reverseInPlace, and it worked! The array is now being reversed as expected.
+The test passed successfully. Thanks a lot for your help! Any idea why the original code was causing issues?
 ```
+
+![Image](testok.png)
+
 ---
-4.At the end, all the information needed about the setup including:
+4. Bug Description:
+```
+The original reverseInPlace method was incorrectly modifying the array, leading to unexpected results.
+The corrected code swaps elements up to the middle point, ensuring a proper in-place reversal.
+```
+
+---
+5.At the end, all the information needed about the setup including:
 - `The file & directory structure needed`
 ```
 lab3
@@ -75,11 +92,48 @@ lab3
 ```
 
 - The contents of each file before fixing the bug
-  
+
+`1.ArrayExamples.java`
+
+```
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
+  }
+}
+```
+`2.ArrayTests.java`
+
+```
+@Test
+public void testReverseInPlace() {
+  int[] input1 = { 3, 4, 5, 6, 7 };
+  ArrayExamples.reverseInPlace(input1);
+  assertArrayEquals(new int[] { 7, 6, 5, 4, 3 }, input1);
+}
+```
+`3.test.sh`
+
+```
+ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
+ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
+```
 - The full command line (or lines) you ran to trigger the bug
 
+`bash test.sh`
+
 - `A description of what to edit to fix the bug:`
+`In the ArrayUtils.java file, update the reverseInPlace method to correctly reverse the array using a proper swapping technique:`
+
 ```
-The issue is likely related to how you're accessing array elements. Check the part of your code where you handle array indices
-and make sure you're not going out of bounds. Consider validating the array length and adjusting your logic accordingly.
-```  
+  static void reverseInPlace(int[] arr) {
+        for (int i = 0; i < arr.length / 2; i += 1) {
+            int temp = arr[i];
+            arr[i] = arr[arr.length - i - 1];
+            arr[arr.length - i - 1] = temp;
+        }
+    }
+```
+`After making this change, recompile the code and run the test again using the same commands, and the test should pass successfully.`
+
+---
