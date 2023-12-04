@@ -2,9 +2,9 @@
 
 `part1: Debugging Scenario`
 
-`1. Subject: Issue with my Java Program`
-
 ```
+Subject: Issue with my Java Program
+
 Hello,
 
 I'm encountering an issue with the reverseInPlace method in my Java code.
