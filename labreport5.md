@@ -162,7 +162,9 @@ public void testReverseInPlace() {
 
 - `A description of what to edit to fix the bug:`
 
-`In the ArrayExamples.java file, update the reverseInPlace method to correctly reverse the array using a proper swapping technique: made a new int temp to fix the problem`
+`In the ArrayExamples.java file, update the reverseInPlace method to correctly reverse the array using a proper swapping technique:`
+
+-made a new int temp to fix the problem.
 
 ```
   static void reverseInPlace(int[] arr) {
@@ -181,8 +183,10 @@ public void testReverseInPlace() {
 
 ```
 When I initially enrolled in this course, my knowledge of GitHub was limited.
-However, through the course, I gained a comprehensive understanding of GitHub and learned valuable methods like git push and git commit.
+However, through the course, I gained a comprehensive understanding of GitHub and learned valuable methods
+like git push and git commit.
 Utilizing tools like vim, I found it extremely beneficial to navigate and rectify errors in my code.
-This course not only enhanced my proficiency in using GitHub but also provided insights into a more organized file system, aiding in the identification and modification of files.
+This course not only enhanced my proficiency in using GitHub but also provided insights into a more organized file system,
+aiding in the identification and modification of files.
 Overall, it has been a valuable experience, contributing significantly to my skill set and understanding of version control.
 ```
