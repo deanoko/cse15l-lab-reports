@@ -112,7 +112,7 @@ The test passed successfully. Thanks a lot for your help! Any idea why the origi
 ![Image](testok.png)
 
 ---
-4. Bug Description:
+4.Bug Description:
 ```
 The original reverseInPlace method was incorrectly modifying the array, leading to unexpected results.
 The corrected code swaps elements up to the middle point, ensuring a proper in-place reversal.
@@ -120,7 +120,8 @@ The corrected code swaps elements up to the middle point, ensuring a proper in-p
 
 ---
 5.At the end, all the information needed about the setup including:
-- `The file & directory structure needed`
+- The file & directory structure needed
+
 ```
 lab3
  -lib
@@ -164,7 +165,7 @@ public void testReverseInPlace() {
 
 `In the ArrayExamples.java file, update the reverseInPlace method to correctly reverse the array using a proper swapping technique:`
 
--made a new int temp to fix the problem.
+- made a new int temp to fix the problem.
 
 ```
   static void reverseInPlace(int[] arr) {
