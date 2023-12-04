@@ -44,6 +44,45 @@ Thanks!
 ```
 Hi there!
 
+Thanks for reaching out. It looks like there might be an issue with your program.
+But, I need more information to figure out what the problem is.
+Could you run the program and share the output with me?
+
+Thank you.
+```
+---
+
+`3.Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.`
+
+```
+There was 1 failure:
+1) testReverseInPlace(ArrayTests)
+arrays first differed at element [3]; expected:<4> but was:<6>
+        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+        at org.junit.Assert.internalArrayEquals(Assert.java:534)
+        at org.junit.Assert.assertArrayEquals(Assert.java:418)
+        at org.junit.Assert.assertArrayEquals(Assert.java:429)
+        at ArrayTests.testReverseInPlace(ArrayTests.java:10)
+        ... 32 trimmed
+Caused by: java.lang.AssertionError: expected:<4> but was:<6>
+        at org.junit.Assert.fail(Assert.java:89)
+        at org.junit.Assert.failNotEquals(Assert.java:835)
+        at org.junit.Assert.assertEquals(Assert.java:120)
+        at org.junit.Assert.assertEquals(Assert.java:146)
+        at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+        ... 38 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+```
+---
+`A response from a TA asking a leading question or suggesting a command to try`
+
+```
+Hi there!
+
 Thanks for reaching out. It looks like there might be an issue with your reverseInPlace method.
 The logic you've shared seems to be modifying the array, but it might not be achieving the desired reversal.
 
@@ -63,9 +102,8 @@ Code:
 ```
 ---
 
-`3.Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.`
-
-```Hey,
+```
+Hey,
 
 I tried the updated code for reverseInPlace, and it worked! The array is now being reversed as expected.
 The test passed successfully. Thanks a lot for your help! Any idea why the original code was causing issues?
