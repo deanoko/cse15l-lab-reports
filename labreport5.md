@@ -176,3 +176,13 @@ public void testReverseInPlace() {
 `After making this change, recompile the code and run the test again using the same commands, and the test should pass successfully.`
 
 ---
+
+`Part 2 – Reflection`
+
+```
+When I initially enrolled in this course, my knowledge of GitHub was limited.
+However, through the course, I gained a comprehensive understanding of GitHub and learned valuable methods like git push and git commit.
+Utilizing tools like vim, I found it extremely beneficial to navigate and rectify errors in my code.
+This course not only enhanced my proficiency in using GitHub but also provided insights into a more organized file system, aiding in the identification and modification of files.
+Overall, it has been a valuable experience, contributing significantly to my skill set and understanding of version control.
+```
